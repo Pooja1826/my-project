@@ -1,0 +1,26 @@
+<!-- <p>navbar works!</p> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink=""><img src="../assets/logo.png" class="nav-img">Health Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink=""  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="view-appointments" routerLinkActive="active-link">View Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="place-appointment" routerLinkActive="active-link">Place Appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact-us" routerLinkActive="active-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--to make links working add path in app-rounting.module , then these will work-->

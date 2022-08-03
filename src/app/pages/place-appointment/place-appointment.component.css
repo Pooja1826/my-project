@@ -1,0 +1,28 @@
+*{
+    padding: auto;
+    
+}
+#box{
+    margin: 15px;
+}
+
+.row{
+    margin: 15px;
+}
+
+button.right{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.error-msg{
+    padding-bottom: 5px;
+    width: 400px;
+    display: flex;
+    color: red;
+}
+.input-control.ng-touched.ng-invalid{
+    border: 1px solid red;
+}
+

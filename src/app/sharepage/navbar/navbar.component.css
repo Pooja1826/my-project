@@ -1,0 +1,15 @@
+/* .active-link{
+    font-weight: bold;
+} */
+.navbar-expand-lg .navbar-nav .nav-link.active-link{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: var(--secondary-color);
+    
+}
+
+.nav-img{
+    width: 15%;
+}

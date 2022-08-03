@@ -1,0 +1,24 @@
+<!-- <p>contact-us works!</p> -->
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Success!</strong> Thank you for contacting us.
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+<h1 style="text-align: center;">Drop a message</h1>
+<div class="conatiner mt-5 mb-5" id="box">
+    <form class="col-lg-8" #contactForm="ngForm" novalidate>
+        <div class="row">
+            <div class="col-lg-4 mt-2 mb-2">
+                <input type="text" class="form-control" placeholder="Enter your name..." ngModel name="name"  autofocus required>
+                <input type="email" class="form-control" placeholder="Enter your email..." ngModel name="email" required>
+                <input type="phoneno" class="form-control" placeholder="Enter your phone..." ngModel name="phoneno" required>
+            </div>
+            <div class="col-lg-8 mt-2 mb-2">
+                <textarea class="form-control" id="Textarea" rows="5" cols="80" maxlength="200" name="msg" ngModel required></textarea>
+            </div>
+        </div>
+        <button (click)="saveFeedback()" [disabled]="contactForm.form.invalid" class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+#box{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-control{
+    /* padding: 5px; */
+    margin: 5px;
+}
+
+

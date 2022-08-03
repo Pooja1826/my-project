@@ -1,0 +1,51 @@
+.footer
+{
+    background-color:#000;
+    overflow: hidden;
+    position: sticky;
+    top: 100%;    
+    color: white;
+}
+
+h1 
+{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+p
+{
+    color: #fff;
+    font-size: 12px;
+}
+
+a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+
+a:hover 
+{
+    color: var(--primary-color);
+}
+
+i 
+{
+    padding: 0px 10px;
+}
+
+.footer_ul{ 
+    margin:0px ;
+    list-style-type:none ;
+    font-size:14px;
+    padding:0px 0px 10px 0px ;
+}
+.footer_ul li {
+    padding:0px 0px 5px 0px;
+    color: #fff;
+    font-size: 12px;
+}

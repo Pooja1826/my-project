@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "pooja",
+      "age": 12,
+      "Email": "zsad@hasdas",
+      "mobileno": "2342341323",
+      "Address": "add",
+      "Address2": "add2",
+      "inputCity": "cc",
+      "inputState": "ss",
+      "inputCountry": "cco",
+      "inputPinCode": "pp",
+      "Trainer": "Male Trainer",
+      "Physiotherapist": "yes",
+      "packages": "5 sessions per week",
+      "weeks": 3,
+      "id": 1
+    },
+    {
+      "name": "pooks",
+      "age": 45,
+      "Email": "ghhggh",
+      "mobileno": "67677667",
+      "Address": "ghgh",
+      "Address2": "uh",
+      "inputCity": "hjhjhj",
+      "inputState": "hjjh",
+      "inputCountry": "hjjhjh",
+      "inputPinCode": "8787",
+      "Trainer": "No Preferences",
+      "Physiotherapist": "yes",
+      "packages": "One time appointment",
+      "weeks": "",
+      "id": 2
+    },
+    {
+      "name": "msiaa",
+      "age": 21,
+      "Email": "aadda",
+      "mobileno": "13213312",
+      "Address": "werwer",
+      "Address2": "wrwrqw",
+      "inputCity": "qwerwr",
+      "inputState": "kklklk",
+      "inputCountry": "gjgh",
+      "inputPinCode": "jhhj",
+      "Trainer": "Male Trainer",
+      "Physiotherapist": "yes",
+      "packages": "One time appointment",
+      "weeks": "",
+      "id": 3
+    },
+    {
+      "name": "fdkkmm",
+      "age": 2,
+      "Email": "jhhj",
+      "mobileno": "jhjh",
+      "Address": "klkl",
+      "Address2": "klkl",
+      "inputCity": "klkl",
+      "inputState": "hbv",
+      "inputCountry": "gvgg",
+      "inputPinCode": "ghhg",
+      "Trainer": "Female Trainer",
+      "Physiotherapist": "yes",
+      "packages": "One time appointment",
+      "id": 4
+    },
+    {
+      "name": "sdsjcndskm",
+      "age": 3,
+      "Email": "bnn",
+      "mobileno": "jjkjkjkjkj",
+      "Address": "kjkjkjkj",
+      "Address2": "cvbvbv",
+      "inputCity": "vhghg",
+      "inputState": "kklkl",
+      "inputCountry": "kmlmkl",
+      "inputPinCode": "klkjlkjl",
+      "Trainer": "No Preferences",
+      "Physiotherapist": "yes",
+      "packages": "5 sessions per week",
+      "weeks": 3,
+      "id": 5
+    }
+  ]
+}

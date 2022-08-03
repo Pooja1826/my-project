@@ -1,0 +1,42 @@
+<!-- <p>view-appointments works!</p> -->
+<div *ngIf="users.length < 1; then noList; else showList;"></div>
+<ng-template #showList>
+<div class="table-responsive-sm">
+<table class="table table-hover table-bordered mt-5 mb-5">
+    <thead>
+      <tr>
+        <th scope="col">S.No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Email</th>
+        <th scope="col">Age</th>
+        <th scope="col">Complete Address</th>
+        <th scope="col">Trainer Preference</th>
+        <th scope="col">Physio Required</th>
+        <th scope="col">Package</th>
+        <th scope="col">Total Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.mobileno}}</td>
+        <td>{{user.Email}}</td>
+        <td>{{user.age}}</td>
+        <td>{{user.Address+ " "+ user.Address2 +" "+ user.inputCity+" "+ user.inputState+" "+ user.inputCountry+" "+user.inputPinCode}} </td>
+        <td>{{user.Trainer}}</td>
+        <td>{{user.Physiotherapist}}</td>
+        <td>{{user.packages}}</td>
+        <td>{{user.Amount}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</ng-template>
+
+
+<ng-template #noList>
+  <h1 style="text-align: center;">{{emptyMsg}}</h1>
+</ng-template>
+
